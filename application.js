@@ -6,3 +6,15 @@ $(document).ready(function() {
     $('#health').remove();
   });
 });
+
+
+var links = {
+  counter: 0,
+};
+var dict = [0,1,2,3,4,5,6,7,8,9,"a","b","c"];
+
+function genLink (url) {
+
+  links[key] = url;
+  links.counter++
+}
